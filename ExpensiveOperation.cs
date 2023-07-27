@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace proxy
+{
+    public class ExpensiveOperation : IExpensiveOperation
+    {
+        public int PerformOperation(int input) => input*2;
+        
+        
+    }
+}
